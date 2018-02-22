@@ -1,6 +1,7 @@
-// $('header a').click( function(){
-// 	var $this = $(this);
+$('header a').click( function(){
+	var id = $(this).attr('href');
 
-// 	$("html, body").animate({ scrollTop: ( $this.offset().top ) }, "slow");
-// 	return false;
-// });
+	//console.log($(id));
+	$("html, body").animate({ scrollTop: ( $(id).offset().top - 80 ) }, "slow");
+	return false;
+});
