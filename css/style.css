@@ -40,17 +40,21 @@ main .img {
   margin-bottom: 60px;
 }
 /* line 32, style.scss */
+main .img img {
+  max-width: 1900px;
+}
+/* line 35, style.scss */
 main .img .subtitles {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 38, style.scss */
+/* line 41, style.scss */
 footer {
   background-color: #333333;
   padding: 20px 0;
 }
-/* line 41, style.scss */
+/* line 44, style.scss */
 footer span {
   margin: 0 20px;
   color: #fff;
