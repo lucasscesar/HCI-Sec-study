@@ -43,10 +43,10 @@ main .img .subtitles {
 /* line 35, style.scss */
 footer {
   background-color: #333333;
-  height: 80px;
-  line-height: 80px;
+  padding: 20px 0;
 }
-/* line 39, style.scss */
-footer p {
+/* line 38, style.scss */
+footer span {
+  margin: 0 20px;
   color: #fff;
 }

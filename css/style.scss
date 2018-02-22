@@ -34,9 +34,9 @@ main{
 }
 footer{
 	background-color: #333333;
-    height: 80px;
-    line-height: 80px;
-    p{
+    padding: 20px 0;
+    span{
+    	margin: 0 20px;
     	color: #fff;
     }
 }
