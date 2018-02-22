@@ -1,3 +1,43 @@
-.title{
-	
+header{
+    background-color: #333333;
+    height: 80px;
+    line-height: 80px;
+    ul{
+    	li{
+    		padding: 0 30px;
+    		a{
+				color: #fff;
+				font-size: 18px;
+				text-decoration: none;
+				&:hover{
+					color: #ffd2d2
+				}
+    		}
+    	}
+    }
 }
+main{
+	margin: 50px 0;
+	.title{
+		font-size: 60px;
+		font-weight: 600;
+		margin: 0 0 50px;
+	}
+	.img{
+		text-align: center;
+		margin-bottom: 60px;
+		.subtitles{
+			font-size: 18px;
+			font-weight: 700;
+		}	
+	}
+}
+footer{
+	background-color: #333333;
+    height: 80px;
+    line-height: 80px;
+    p{
+    	color: #fff;
+    }
+}
+
