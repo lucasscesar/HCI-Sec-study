@@ -22,30 +22,31 @@ header ul li a:hover {
 /* line 19, style.scss */
 main {
   margin: 50px 0;
+  padding-top: 80px;
 }
-/* line 21, style.scss */
+/* line 22, style.scss */
 main .title {
   font-size: 60px;
   font-weight: 600;
   margin: 0 0 50px;
 }
-/* line 26, style.scss */
+/* line 27, style.scss */
 main .img {
   text-align: center;
   margin-bottom: 60px;
 }
-/* line 29, style.scss */
+/* line 30, style.scss */
 main .img .subtitles {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 35, style.scss */
+/* line 36, style.scss */
 footer {
   background-color: #333333;
   padding: 20px 0;
 }
-/* line 38, style.scss */
+/* line 39, style.scss */
 footer span {
   margin: 0 20px;
   color: #fff;
